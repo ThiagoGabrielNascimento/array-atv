@@ -1,0 +1,34 @@
+<script>
+    //Problema: Remover SUV
+    //Crie os seguintes arrays:
+    // let carrosSUV = ["Tiggo", "Sportage", "Tucson", "EcoSport"];
+    //Pergunte ao usuário qual carro deseja REMOVER da lista.
+    //Apresente a lista antiga de SUVs e a nova lista, após a remoção do veículo solicitado.
+
+    //ENTRADA
+    let carrosSUV = ["Tiggo", "Sportage", "Tucson", "EcoSport"];
+    const remover = (prompt(`informe qual carro você gostaria de retirar da lista?`));
+    //PROCESSAMENTO
+    if (remover == "tiggo" || remover == "Tiggo"){
+        carrosSUV.splice[0,1] 
+        alert(`o carro que você removeu foi ${carrosSUV}`)
+    }
+    else if (remover == "sportage" || remover == "Sportage"){
+        carrosSUV.splice[1, 1] 
+        alert(`o carro que você removeu foi ${carrosSUV}`)
+    }
+    else if (remover == "tucson" || remover == "Tucson"){
+        carrosSUV.splice[2, 1] 
+        alert(`o carro que você removeu foi ${carrosSUV}`)
+    }
+    else if (remover == "ecosport" || remover == "EcoSport"){
+        carrosSUV.splice[3, 1] 
+        alert(`o carro que você removeu foi ${carrosSUV}`)
+    }
+    else {
+        alert(`o carro escolhido não foi um da lista`)
+    }
+
+    //SAÍDA
+
+</script>
